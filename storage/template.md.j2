@@ -1,0 +1,33 @@
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/1263/1263484.png" alt="Hospital Life" width="80"/>
+</p>
+
+<br />
+
+To the beneficiary **{{ beneficiary.name }}** (SSN {{ beneficiary.ssn }}), I request the following tests for a complete diagnostic evaluation and pre-operative preparation:
+
+{% for exam in exams %}
+- **{{ exam.name }}**  
+  _{{ exam.description }}_
+{% endfor %}
+
+<br />
+
+<p align="center">
+  Dr. <strong>{{ professional.name }}</strong> (License Number {{ professional.license_number }})
+</p>
+
+<p align="center">
+  {{ date }}
+</p>
+
+---
+
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div>
+    <img src="https://pngimg.com/uploads/qr_code/qr_code_PNG10.png" alt="QR Code" style="height: 75px;">
+  </div>
+  <div>
+    <img src="https://img.shields.io/badge/HOSPITAL-LIFE-1E81CE?labelColor=9BC9FF&style=for-the-badge" style="height: 30px;">
+  </div>
+</div>

@@ -1,0 +1,25 @@
+{
+  "beneficiary": {
+    "name": "Emily Johnson",
+    "ssn": "123-45-6789"
+  },
+  "professional": {
+    "name": "Michael Smith",
+    "license_number": "MD123456"
+  },
+  "exams": [
+    {
+      "name": "Complete Blood Count",
+      "description": "Essential for a general health assessment, aiding in the identification of infections, anemias, and other hematological conditions."
+    },
+    {
+      "name": "Pre-Anesthesia Consultation",
+      "description": "Required before any anesthetic procedure to ensure safety during surgery."
+    },
+    {
+      "name": "Coagulation Profile",
+      "description": "To check blood coagulation and minimize bleeding risks in invasive procedures."
+    }
+  ],
+  "date": "October 28, 2024"
+}
