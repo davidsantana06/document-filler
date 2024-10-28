@@ -6,6 +6,9 @@ Application developed as a proof of concept for generating customized documents 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 ![Jinja](https://img.shields.io/badge/jinja-white.svg?style=for-the-badge&logo=jinja&logoColor=black)
 
+> [!NOTE]
+> The usage guide is available at [**📚 Docs**](./docs.md).
+
 ### 🛠️ Installation and Configuration
 
 The application was developed using **Python 3.12**, and it is recommended to use this version to ensure compatibility.
