@@ -6,11 +6,8 @@ import json
 
 
 _ROOT_DIR = Path(__file__).resolve().parent
-
 _STORAGE_DIR = _ROOT_DIR / 'storage'
-
 _TEMPLATE_FILE = _STORAGE_DIR / 'template.md.j2'
-
 _CONTEXT_FILE = _STORAGE_DIR / 'context.json'
 
 
