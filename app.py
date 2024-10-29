@@ -12,12 +12,12 @@ _CONTEXT_FILE = _STORAGE_DIR / 'context.json'
 
 
 def get_template() -> str:
-    with open(_TEMPLATE_FILE, 'r', encoding='utf-8') as file:
+    with open(_TEMPLATE_FILE, encoding='utf-8') as file:
         return file.read()
 
 
 def get_context() -> Dict[str, object]:
-    with open(_CONTEXT_FILE, 'r', encoding='utf-8') as file:
+    with open(_CONTEXT_FILE, encoding='utf-8') as file:
         return json.load(file)
 
 
